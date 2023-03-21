@@ -702,6 +702,10 @@ body {
         width: 392px;
         height: 586px;
     }
+
+    /* .costomers-link {
+        width: 168px;
+    } */
 }
 
 @media screen and (min-width: 768px) {
@@ -731,6 +735,9 @@ body {
 @media screen and (max-width: 479px) {
     .customers-list {
         gap: 72px 16px;
+    }
+    .customers-link {
+        width: 100%;
     }
 }
 
@@ -1002,7 +1009,7 @@ body {
     }
 
     .customers-item {
-        flex-basis: calc((100% - 60px)/3);
+        flex-basis: auto;
     }
 
     .costomers-link {
